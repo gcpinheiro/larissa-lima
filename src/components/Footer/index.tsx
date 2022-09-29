@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import facebook from './../../../public/facebook.svg';
 import instagram from './../../../public/instagram.svg';
 import logoImg from './../../../public/logo.svg';
+import whatsapp from './../../../public/whatsapp.svg';
 import youtube from './../../../public/youtube.svg';
 import {
   ContainerFooter,
@@ -57,9 +57,9 @@ const Footer = () => {
                 <Image src={instagram}></Image>
               </CursorPointer>
             </Link>
-            <Link href="https://www.instagram.com/innovacci.academy/">
+            <Link href="https://api.whatsapp.com/send?phone=5585998480380&text=Ol%C3%A1!%20Vi%20seu%20an%C3%BAncio%20e%20desejo%20mais%20informa%C3%A7%C3%B5es%20sobre%20consulta">
               <CursorPointer>
-                <Image src={facebook}></Image>
+                <Image src={whatsapp}></Image>
               </CursorPointer>
             </Link>
             <Link href="https://www.instagram.com/innovacci.academy/">
@@ -70,13 +70,6 @@ const Footer = () => {
           </BoxIcons>
         </BoxSocialMedia>
         <BoxAbout>
-          <BoxDescriptioin>
-            <TitleDescription>Sobre</TitleDescription>
-            <Options href="#">Quem somos</Options>
-            <Options href="#">Imprensa</Options>
-            <Options href="#">Privacidade</Options>
-            <Options href="#">Termos de Uso</Options>
-          </BoxDescriptioin>
           <BoxDescriptioin>
             <TitleDescription>Sobre</TitleDescription>
             <Options href="#">Quem somos</Options>

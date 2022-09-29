@@ -1,4 +1,3 @@
-import picture from './../../../public/author-comment-picture.svg';
 import butterfly from './../../../public/butterfly.svg';
 import larissa from './../../../public/larissa.jpeg';
 import {
@@ -10,8 +9,6 @@ import {
   Comment,
   Message,
   Author,
-  BoxbuttonSlide,
-  ButtonsSlide,
   Butterfly,
   ImagePerfil,
 } from './styles';
@@ -25,9 +22,9 @@ export const Depoimentos = () => {
       </Header>
       <Description>
         Consectetur tortor elementum aenean gravida volutpat aliquam morbi.Ut
-        nullam vitae dolor vestibulum mollis quis bibendum venenatis. Amet,
-        purus consectetur massa rhoncus. Nibh tincidunt turpis etiam viverra
-        mattis viverra.
+        nullam vitae dolor vestibulum mollis quis bibendum venenatis. <br></br>
+        Amet, purus consectetur massa rhoncus. Nibh tincidunt turpis etiam
+        viverra mattis viverra.
       </Description>
       <Content>
         <ImagePerfil imgUrl={larissa.src} />

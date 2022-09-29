@@ -45,7 +45,7 @@ export default class MyDocument extends Document {
             content="Psicóloga especializada em terapia cognitiva comportamental"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700"
             rel="stylesheet"
           />
           <link rel="icon" href="/favicon.svg" />

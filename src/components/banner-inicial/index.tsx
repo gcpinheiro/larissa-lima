@@ -1,5 +1,4 @@
 import Button from '../button/Button';
-import consulta from './../../../public/foto-consulta.jpg';
 import sala from './../../../public/sala.jpeg';
 import {
   ContainerBannerInicial,

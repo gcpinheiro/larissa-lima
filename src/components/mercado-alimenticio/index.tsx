@@ -1,4 +1,3 @@
-import banner from './../../../public/banner-mercado-alimenticio.svg';
 import {
   Container,
   ContainerBanner,
@@ -12,7 +11,7 @@ import {
 export const MercadoAlimenticio = () => {
   return (
     <Container>
-      <Title>Nossa localização</Title>
+      <Title>Localização</Title>
 
       <ContainerDescription>
         <Paragraph>
@@ -33,15 +32,14 @@ export const MercadoAlimenticio = () => {
 
       <ContainerDetail>
         <Paragraph>
-          Empresário, no mercado alimentício você pode encontrar profissionais
+          {/* Empresário, no mercado alimentício você pode encontrar profissionais
           que o seu negócio precisa para se desenvolver e <br />
           crescer. Consulte seus portfólios, análise depoimentos de clientes,
-          veja a sua reputação e as entregas dos serviços.
+          veja a sua reputação e as entregas dos serviços. */}
         </Paragraph>
         <Paragraph>
-          Profissional, nunca mais fique sem clientes e seja surpreendido pelo
-          alcance da nossa comunidade. <br />
-          Tenha acesso agora mesmo de forma prática, rápida e segura.
+          O local é de fácil acesso através da avenida Washington Soares,
+          possuindo estacionamento próprio.
         </Paragraph>
       </ContainerDetail>
     </Container>
