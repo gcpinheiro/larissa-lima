@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       <Depoimentos />
       <BannerInicial />
       <MercadoAlimenticio />
-      <Footer />
+      {/* <Footer /> */}
       {/* <NossosCursos />
       <OQueEstaEsperando />
       <CursosPagos />
