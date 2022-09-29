@@ -6,7 +6,7 @@ import BannerInicial from '../components/banner-inicial';
 // import { ComeceSuaJornada } from '../components/comece-sua-jornada';
 // import { CursosPagos } from '../components/CursosPagos';
 import { Depoimentos } from '../components/Depoimentos';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import { Header } from '../components/header';
 import { MercadoAlimenticio } from '../components/mercado-alimenticio';
 // import NossosCursos from '../components/nossos-cursos';
@@ -23,6 +23,7 @@ const Home: NextPage = () => {
       <Depoimentos />
       <BannerInicial />
       <MercadoAlimenticio />
+      <Footer />
       {/* <NossosCursos />
       <OQueEstaEsperando />
       <CursosPagos />
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
       
 
       <ComeceSuaJornada />
-      {/* <Footer /> */}
+      {/*  */}
     </div>
   );
 };

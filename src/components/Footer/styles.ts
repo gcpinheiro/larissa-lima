@@ -131,7 +131,7 @@ export const BoxSocialMedia = styled.div`
   width: 332px;
   height: 99px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 
   @media only screen and (max-width: 1300px) {

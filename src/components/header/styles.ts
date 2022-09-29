@@ -48,7 +48,7 @@ export const ActionsContainer = styled.div`
   align-items: center;
   gap: 5px;
   padding: 0 20px;
-  width: 30%;
+  width: 40%;
 
   @media only screen and (max-width: 890px) {
     display: none;
@@ -137,4 +137,14 @@ export const Line = styled.div`
   width: 203px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   margin: 34px 0;
+`;
+
+export const CursorPointer = styled.div`
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  :hover {
+    opacity: 0.7;
+  }
 `;
