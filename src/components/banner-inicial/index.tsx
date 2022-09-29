@@ -11,7 +11,7 @@ import {
 
 const BannerInicial = () => {
   return (
-    <ContainerBannerInicial>
+    <ContainerBannerInicial id="tcc">
       <BoxTextsAndButton>
         <TitleColorPrimary>
           Afinal, como funciona a psicoterapia?

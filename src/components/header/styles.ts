@@ -56,11 +56,15 @@ export const ActionsContainer = styled.div`
 `;
 
 export const LinkOptions = styled.a`
+  font-size: 16px;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.secondaryLight};
   &:hover {
     text-decoration: underline;
     opacity: 0.8;
+  }
+  @media only screen and (max-width: 890px) {
+    font-size: 32px;
   }
 `;
 
@@ -92,7 +96,9 @@ export const ModalMenu = styled.div<StateModal>`
   top: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  padding: 16px;
+  box-sizing: border-box;
   display: ${(props) => (props.state ? 'flex' : 'none')};
 `;
 
@@ -114,15 +120,17 @@ export const ContainerButtonsModal = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 176px;
-  align-items: center;
-  justify-content: center;
+  margin-top: 40px;
+  padding: 24px;
+  box-sizing: border-box;
 `;
 
-export const BoxButton = styled.div`
+export const OptionsMenu = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 300px;
 `;
 
 export const Line = styled.div`

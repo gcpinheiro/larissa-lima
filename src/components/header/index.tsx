@@ -7,15 +7,12 @@ import {
   Container,
   LogoContainer,
   ActionsContainer,
-  LogInButton,
-  RegisterButton,
+  OptionsMenu,
   Menu,
   ModalMenu,
   BoxClose,
   Close,
   ContainerButtonsModal,
-  BoxButton,
-  Line,
   LinkOptions,
 } from './styles';
 
@@ -36,10 +33,10 @@ export const Header = () => {
         <img src={logoImg.src} alt="Larissa Lima" />
       </LogoContainer>
       <ActionsContainer>
-        <LinkOptions href="/about">Home</LinkOptions>
-        <LinkOptions href="/about">Sobre a TCC</LinkOptions>
-        <LinkOptions href="/about">Contato</LinkOptions>
-        <LinkOptions href="/about">Localização</LinkOptions>
+        <LinkOptions href="#home">Home</LinkOptions>
+        <LinkOptions href="#tcc">Sobre a TCC</LinkOptions>
+        <LinkOptions href="#localizacao">Localização</LinkOptions>
+        <LinkOptions href="#contato">Contato</LinkOptions>
       </ActionsContainer>
       <Menu
         src={menu.src}
@@ -57,11 +54,12 @@ export const Header = () => {
           ></Close>
         </BoxClose>
         <ContainerButtonsModal>
-          <BoxButton>
-            <LogInButton>Entrar</LogInButton>
-            <Line></Line>
-            <RegisterButton>Cadastre-se</RegisterButton>
-          </BoxButton>
+          <OptionsMenu>
+            <LinkOptions href="#home">Home</LinkOptions>
+            <LinkOptions href="#tcc">Sobre a TCC</LinkOptions>
+            <LinkOptions href="#localizacao">Localização</LinkOptions>
+            <LinkOptions href="#contato">Contato</LinkOptions>
+          </OptionsMenu>
         </ContainerButtonsModal>
       </ModalMenu>
     </Container>
