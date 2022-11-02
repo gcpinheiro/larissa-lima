@@ -16,8 +16,8 @@ const Button = styled.button`
   }
 
   @media only screen and (max-width: 890px) {
-    font-size: 18px;
-    padding: 8px;
+    font-size: 14px;
+    padding: 8px 16px;
   }
 `;
 

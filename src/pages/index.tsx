@@ -9,6 +9,7 @@ import { Depoimentos } from '../components/Depoimentos';
 import Footer from '../components/Footer';
 import { Header } from '../components/header';
 import { MercadoAlimenticio } from '../components/mercado-alimenticio';
+import { Planos } from '../components/Planos';
 // import NossosCursos from '../components/nossos-cursos';
 // import { OQueEstaEsperando } from '../components/o-que-esta-esperando';
 // import { PorQueInovacci } from '../components/porque-inovacci';
@@ -23,7 +24,8 @@ const Home: NextPage = () => {
       <Depoimentos />
       <BannerInicial />
       <MercadoAlimenticio />
-      {/* <Footer /> */}
+      <Planos />
+      <Footer />
       {/* <NossosCursos />
       <OQueEstaEsperando />
       <CursosPagos />

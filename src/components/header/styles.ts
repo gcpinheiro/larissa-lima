@@ -15,7 +15,7 @@ export const Container = styled.header`
   flex-direction: row;
   justify-content: space-between;
 
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 990px) {
     padding: 21px 19px 19px 31px;
   }
 
@@ -48,9 +48,9 @@ export const ActionsContainer = styled.div`
   align-items: center;
   gap: 5px;
   padding: 0 20px;
-  width: 40%;
+  width: 50%;
 
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 990px) {
     display: none;
   }
 `;
@@ -63,7 +63,7 @@ export const LinkOptions = styled.a`
     text-decoration: underline;
     opacity: 0.8;
   }
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 990px) {
     font-size: 32px;
   }
 `;
@@ -81,7 +81,7 @@ export const Menu = styled.img`
   height: 20px;
   display: none;
 
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 990px) {
     display: block;
     cursor: pointer;
   }
@@ -90,7 +90,7 @@ export const Menu = styled.img`
 export const ModalMenu = styled.div<StateModal>`
   width: ${(props) => (props.state ? '100%' : '0%')};
   height: ${(props) => (props.state ? '934px' : '0px')};
-  background-color: #2b1e69;
+  background-color: ${({ theme }) => theme.colors.primary};
   position: absolute;
   left: 0;
   top: 0;

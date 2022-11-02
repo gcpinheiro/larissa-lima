@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 export const ContainerFooter = styled.footer`
   width: 100%;
-  height: 824px;
-  background-color: ${({ theme }) => theme.colors.purple};
+  height: 424px;
+  background-color: ${({ theme }) => theme.colors.primary};
   padding: 78px 122px 37px 122px;
   box-sizing: border-box;
 
@@ -128,11 +128,12 @@ export const BoxAboutAndSocialMedias = styled.div`
 `;
 
 export const BoxSocialMedia = styled.div`
-  width: 332px;
+  width: 100%;
   height: 99px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-around;
 
   @media only screen and (max-width: 1300px) {
     width: 100%;
